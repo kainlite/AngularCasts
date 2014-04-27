@@ -1,0 +1,21 @@
+{
+  "name": "angular-casts",
+  "dependencies": {
+    "karma": ">= 0.10.9",
+    "karma-jasmine": "0.1.5",
+    "karma-ng-scenario": "0.1.0",
+    "phantomjs": "1.9.7-1",
+    "karma-phantomjs-launcher": ">= 0.0.0",
+    "karma-coffee-preprocessor": "~0.1",
+    "coffee-script": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
+  },
+  "devDependencies": {
+    "karma-coverage": "^0.2.1",
+    "karma-coffee-preprocessor": "^0.1.3",
+    "coffee": "0.0.1"
+  }
+}

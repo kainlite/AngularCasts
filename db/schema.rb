@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20140427034937) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "screencasts", force: true do |t|
     t.string   "title"
     t.text     "summary"
@@ -34,6 +37,6 @@ ActiveRecord::Schema.define(version: 20140427034937) do
     t.datetime "created_at"
   end
 
-  add_index "versions", ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id"
+  add_index "versions", ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id", using: :btree
 
 end

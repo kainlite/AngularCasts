@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
@@ -45,6 +46,8 @@ gem 'jasmine'
 gem 'paper_trail', github: 'airblade/paper_trail'
 
 gem 'capistrano'
+
+gem 'rails_12factor'
 
 group :development do
   gem 'pry'
